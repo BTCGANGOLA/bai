@@ -1,0 +1,433 @@
+
+<script>
+function novoConselho() {
+	location.reload();
+}
+
+</script>
+
+<!DOCTYPE html>
+<html lang="pt-AO">
+
+<head>
+    <meta charset="utf-8">
+    <title>BAI - Conselhos Financeiros</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+	
+    <link rel="shortcut icon" href="img/logo_novos_prancheta-1-copia-2.svg" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+	<style>
+		 .menua{
+    font-family: 'Rubik',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    vertical-align: middle;
+}
+
+		 .menua:hover{
+    color: #00a1e0;
+}
+
+.header .bottom .branches {
+    float: right;
+    margin-right: 35px;
+}
+.btn-white--w-dark-blue-border {
+    font-family: 'Rubik',sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--bai-segment-menu-color,#002d74);
+    border: 1px solid var(--bai-segment-menu-color,#002d74);
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 10px 30px;
+}
+
+.header .bottom .internet-banking {
+    float: right;
+}
+.btn-bai-direct {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: var(--bai-segment-menu-color,#002d74);
+}
+
+span{color:#00a1e0; text-weight:bold; font-style: italic;}
+
+	</style>
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark px-0" >
+            <div class="row gx-0" sstyle="background-color:#00a1e0">
+                <div class="col-lg-12" style="background-color:#f3f3f3">
+                    <div class="row gx-0 bg-whitexxx d-none d-lg-flex">
+                        <div class="col-lg-2 px-5 text-end" style="background-color:#f3f3f3">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <span  style="color:transparent">XYZ</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 px-5 text-start">
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-4">
+                                <a class="menua">Particulares</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-4">
+                                <a class="menua">Loengo</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                                <a class="menua">Premium</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                                <a class="menua">Empresas</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                                <a class="menua">Agente Bancário</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                                <a class="menua">Institucional</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                                <a class="menua">Relações com Investidores</a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-2">
+                                <a class="menua" style="color:#00a1e0">Conselhos Financeiros</a>
+                            </div>
+                        </div>
+						
+
+                        <div class="col-lg-2 px-5 text-end" style="background-color:#FFF">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <span   style="color:transparent">ABC</span>
+                            </div>
+                        </div>
+						
+                        <div class="col-lg-2 px-5 text-start" style="background-color:#fff">
+                            <div class="h-100 d-inline-flex align-items-center py-1 me-4">
+                                <!--a class="menua">Logotipo</a-->
+								<img class="main-logo img-fluid " src="img/logo-bai.svg" alt="" style="margin-top:11px; margin-bottom:11px">
+                            </div>
+                        </div>
+						
+                        <div class="col-lg-2 px-5 text-end" style="background-color:#fff">
+                            <div class="d-inline-flex align-items-center py-1">
+								<a class="search" style="margin-top:11px; margin-bottom:11px">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" data-inject-url="https://www.bancobai.ao/Content/Images/search@1x.svg" class="svg">
+										<!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+										<title>Pesquisar</title>
+										<desc>Created with sketchtool.</desc>
+										<g id="Asset-Artboard-Page--inject-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											<g id="icone/search--inject-2" fill="#002D74" fill-rule="nonzero">
+												<g id="search--inject-2">
+													<path d="M29.5438697,27.2579431 L22.1483565,19.8502252 C24.0498729,17.6732461 25.0917249,14.9341609 25.0917249,12.0826544 C25.0917249,5.42038385 19.4635419,6.39488462e-14 12.5458625,6.39488462e-14 C5.62818299,6.39488462e-14 0,5.42038385 0,12.0826544 C0,18.744925 5.62818299,24.1653089 12.5458625,24.1653089 C15.142856,24.1653089 17.6176637,23.410931 19.7335507,21.9788738 L27.1852475,29.4428022 C27.4967122,29.7543245 27.9156349,29.9261084 28.3645586,29.9261084 C28.7894815,29.9261084 29.1925855,29.7700845 29.4985955,29.4864048 C30.1487984,28.8838481 30.1695264,27.8846651 29.5438697,27.2579431 Z M12.5458625,3.15199681 C17.6591196,3.15199681 21.8188912,7.15818475 21.8188912,12.0826544 C21.8188912,17.0071241 17.6591196,21.0133121 12.5458625,21.0133121 C7.4326053,21.0133121 3.27283368,17.0071241 3.27283368,12.0826544 C3.27283368,7.15818475 7.4326053,3.15199681 12.5458625,3.15199681 Z" id="Shape--inject-2"></path>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</a>
+                            </div>
+                        </div>
+						
+                        <div class="col-lg-2 px-5 text-end" style="background-color:#fff">
+                            <div class="d-inline-flex align-items-center py-1" style="background-color:#fff; margin-top:11px; margin-bottom:11px">
+							<a rel="noopener" class="branches btn-white--w-dark-blue-border" href="#" style="font-size:16px; text-weight:bold" >
+                        Agências e ATM's           </a>
+                            </div>
+                        </div>
+						
+                        <div class="col-lg-2 px-5 text-end" style="background-color:#fff">
+                            <div class="d-inline-flex align-items-center py-1" style="background-color:#fff; margin-top:11px; margin-bottom:11px"><a rel="noopener" class="internet-banking btn-bai-direct" title="https://ib.bancobai.ao" href="#" target="_blank">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107px" height="17px" viewBox="0 0 107 17" version="1.1" data-inject-url="https://www.bancobai.ao/Content/Images/logo_baidirecto@1x.svg" class="svg">
+										<!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+										<title>Login</title>
+										<desc>Created with sketchtool.</desc>
+										<g id="Desktop--inject-9" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											<g id="1_Homepage--inject-9" transform="translate(-1058.000000, -60.000000)" fill="#FFFFFF" fill-rule="nonzero">
+												<g id="Header/Logo--inject-9" transform="translate(0.000000, 30.000000)">
+													<g id="Button/BAIDirecto--inject-9" transform="translate(1028.000000, 18.000000)">
+														<g id="btn_baidirecto--inject-9">
+															<g id="logo_baidirecto--inject-9" transform="translate(30.000000, 12.000000)">
+																<path d="M9.50008008,7.3551419 C10.5659794,8.32781037 11.1613564,9.71240791 11.1340801,11.1551419 C11.1132073,13.8580835 8.91610231,16.0382225 6.21308008,16.0381419 L3.64808008,16.0381419 C3.56643965,16.0281386 3.49169075,15.9873664 3.43908008,15.9241419 C3.401905,15.8526879 3.401905,15.7675959 3.43908008,15.6961419 L4.10408008,13.9291419 C4.16793916,13.7654156 4.32738694,13.6591171 4.50308008,13.6631419 L6.27008008,13.6631419 C6.93378709,13.6673366 7.56847638,13.3913848 8.01808008,12.9031419 C8.72666381,12.1787847 8.93403139,11.1012046 8.54488721,10.1656026 C8.15574303,9.23000068 7.24535062,8.6173296 6.23208008,8.6091419 L4.33208008,8.6091419 C4.24834739,8.60617817 4.17090486,8.56393679 4.12308008,8.4951419 C4.09403721,8.41536976 4.09403721,8.32791403 4.12308008,8.2481419 L4.76908008,6.7661419 C4.84095757,6.60905494 4.99543155,6.50607229 5.16808008,6.5001419 L6.32708008,6.5001419 C7.37642111,6.5001419 8.22708008,5.64948292 8.22708008,4.6001419 C8.22708008,3.55080087 7.37642111,2.7001419 6.32708008,2.7001419 L2.94508008,2.7001419 C2.88211962,2.7001419 2.83108008,2.75118143 2.83108008,2.8141419 L2.83108008,15.7911419 C2.83108008,15.8566504 2.80505694,15.9194758 2.75873546,15.9657973 C2.71241397,16.0121188 2.64958855,16.0381419 2.58408008,16.0381419 L2.33708008,16.0381419 C1.03283583,16.0173144 -0.0105214902,14.9485093 8.00805596e-05,13.6441419 L8.00805596e-05,2.6431419 C-0.0105214902,1.33877445 1.03283583,0.269969382 2.33708008,0.249141896 L6.27008008,0.249141896 C8.60130093,0.311230203 10.4526361,2.23019401 10.4310801,4.5621419 C10.4531364,5.57280099 10.1241206,6.5598484 9.50008008,7.3551419" id="Path--inject-9"></path>
+																<path d="M19.3040801,1.2561419 C19.0812034,0.651138526 18.5048305,0.249194262 17.8600801,0.249141896 L17.8600801,0.249141896 C17.2168717,0.239968885 16.6411922,0.646782454 16.4350801,1.2561419 L10.8870801,15.6961419 C10.849905,15.7675959 10.849905,15.8526879 10.8870801,15.9241419 C10.9349049,15.9929368 11.0123474,16.0351782 11.0960801,16.0381419 L12.2930801,16.0381419 C13.0508336,16.0160049 13.722915,15.545548 14.0030801,14.8411419 L17.8030801,4.9611419 L19.3230801,8.8941419 L17.3850801,8.8941419 C17.2124315,8.90007229 17.0579576,9.00305494 16.9860801,9.1601419 L16.3780801,10.7751419 C16.3274134,10.8426975 16.3274134,10.9355863 16.3780801,11.0031419 C16.4144013,11.0743497 16.4881573,11.1186033 16.5680801,11.1171419 L20.2160801,11.1171419 C20.2521538,11.1000306 20.2940064,11.1000306 20.3300801,11.1171419 L21.7170801,14.6891419 C21.9944942,15.3873919 22.6573218,15.8565844 23.4080801,15.8861419 L24.5480801,15.8861419 C24.646373,15.8817428 24.7373012,15.8327815 24.7950801,15.7531419 C24.84237,15.664027 24.84237,15.5572568 24.7950801,15.4681419 L19.3040801,1.2561419 Z" id="Path--inject-9"></path>
+																<path d="M25.8400801,0.249141896 L25.5930801,0.249141896 C25.5275716,0.249141896 25.4647462,0.275165035 25.4184247,0.321486521 C25.3721032,0.367808006 25.3460801,0.430633423 25.3460801,0.496141896 L25.3460801,13.6441419 C25.3354785,14.9485093 26.3788358,16.0173144 27.6830801,16.0381419 L27.9300801,16.0381419 C27.9955886,16.0381419 28.058414,16.0121188 28.1047355,15.9657973 C28.1510569,15.9194758 28.1770801,15.8566504 28.1770801,15.7911419 L28.1770801,2.6431419 C28.1872323,2.01501483 27.9461077,1.40884545 27.5072806,0.959315219 C27.0684534,0.509784987 26.4682694,0.254126061 25.8400801,0.249141896" id="Path--inject-9"></path>
+																<path d="M36.4040801,0.230141896 C37.4069496,0.205814023 38.4073435,0.340482427 39.3680801,0.629141896 C40.0919016,0.84260195 40.7470475,1.24224094 41.2680801,1.7881419 C41.7593851,2.33162328 42.117192,2.98218119 42.3130801,3.6881419 C42.5339083,4.53840043 42.6487795,5.41269725 42.6550801,6.2911419 C42.6550801,6.9751419 42.6550801,7.5641419 42.6550801,8.0771419 C42.6550801,8.5901419 42.6550801,9.1981419 42.6550801,9.9771419 C42.6370712,10.8872262 42.5159648,11.7923368 42.2940801,12.6751419 C42.1226691,13.3827532 41.7764285,14.0360374 41.2870801,14.5751419 C40.7644066,15.1107438 40.1086446,15.4976434 39.3870801,15.6961419 C38.4448433,15.9784204 37.4632155,16.1067377 36.4800801,16.0761419 L31.5970801,16.0761419 C31.4610601,16.0954204 31.3238921,16.0496137 31.2267502,15.9524718 C31.1296083,15.8553298 31.0838016,15.7181619 31.1030801,15.5821419 L31.1030801,0.743141896 C31.0851794,0.605769228 31.1306982,0.467708188 31.2267912,0.36791931 C31.3228842,0.268130432 31.4591299,0.217436008 31.5970801,0.230141896 L36.4040801,0.230141896 Z M41.2490801,6.4241419 C41.2468636,5.6979077 41.1445678,4.97544388 40.9450801,4.2771419 C40.7962223,3.70510227 40.5016448,3.1814089 40.0900801,2.7571419 C39.6604441,2.35282593 39.138713,2.05935218 38.5700801,1.9021419 C37.8298077,1.68428171 37.061736,1.57547156 36.2900801,1.5791419 L32.4900801,1.57905206 L32.4900801,14.6511419 L36.2900801,14.6511419 C37.0522806,14.6645784 37.8128089,14.5751044 38.5510801,14.3851419 C39.1073505,14.2251155 39.6161005,13.9316058 40.0330801,13.5301419 C40.4267039,13.1060418 40.7076153,12.5899488 40.8500801,12.0291419 C41.0367117,11.2963333 41.1324314,10.5433382 41.1350801,9.7871419 L41.1350801,8.8751419 C41.1350801,8.6091419 41.1350801,8.3431419 41.1350801,8.0961419 C41.1350801,7.8491419 41.1350801,7.6021419 41.1350801,7.3361419 L41.2490801,6.4241419 Z M45.9800801,15.5061419 C45.9993585,15.6421619 45.9535519,15.7793298 45.85641,15.8764718 C45.759268,15.9736137 45.6221001,16.0194204 45.4860801,16.0001419 L45.0490801,16.0001419 C44.9130601,16.0194204 44.7758921,15.9736137 44.6787502,15.8764718 C44.5816083,15.7793298 44.5358016,15.6421619 44.5550801,15.5061419 L44.5550801,0.724141896 C44.5358016,0.588121867 44.5816083,0.45095395 44.6787502,0.353812025 C44.7758921,0.2566701 44.9130601,0.210863442 45.0490801,0.230141896 L45.4860801,0.230141896 C45.6221001,0.210863442 45.759268,0.2566701 45.85641,0.353812025 C45.9535519,0.45095395 45.9993585,0.588121867 45.9800801,0.724141896 L45.9800801,15.5061419 Z M54.1500801,0.306141896 C55.507824,0.232944034 56.8494619,0.628727212 57.9500801,1.4271419 C58.9273659,2.28484032 59.4475195,3.55007866 59.3560801,4.8471419 C59.367321,5.84140595 59.0463604,6.81097454 58.4440801,7.6021419 C57.7915789,8.34856717 56.9092098,8.85659788 55.9360801,9.0461419 L59.5650801,15.2211419 C59.579268,15.302864 59.579268,15.3864198 59.5650801,15.4681419 C59.5627042,15.5925373 59.5074172,15.7100223 59.4130801,15.7911419 C59.3374783,15.8797132 59.2254393,15.9287303 59.1090801,15.9241419 L58.9000801,15.9241419 C58.7004069,15.9486026 58.499821,15.8863518 58.3490801,15.7531419 C58.226485,15.6234798 58.1240137,15.4761772 58.0450801,15.3161419 L54.4730801,9.3311419 L49.8370801,9.3311419 L49.8370801,15.5061419 C49.8370801,15.8291419 49.6660801,16.0001419 49.3050801,16.0001419 L48.9060801,16.0001419 C48.7700601,16.0194204 48.6328921,15.9736137 48.5357502,15.8764718 C48.4386083,15.7793298 48.3928016,15.6421619 48.4120801,15.5061419 L48.4120801,0.743141896 C48.3941794,0.605769228 48.4396982,0.467708188 48.5357912,0.36791931 C48.6318842,0.268130432 48.7681299,0.217436008 48.9060801,0.230141896 L54.1500801,0.306141896 Z M49.8370801,7.9821419 L54.0360801,7.9821419 C56.6200801,7.9821419 57.8360801,6.9181419 57.8360801,4.7711419 C57.8360801,2.6241419 56.6200801,1.5791419 54.0360801,1.5791419 L49.8370801,1.5791419 L49.8370801,7.9821419 Z M70.4900801,14.6511419 C70.631127,14.6320665 70.7729914,14.6799442 70.8736346,14.7805874 C70.9742778,14.8812306 71.0221555,15.023095 71.0030801,15.1641419 L71.0030801,15.5061419 C71.015786,15.644092 70.9650915,15.7803377 70.8653027,15.8764307 C70.7655138,15.9725237 70.6274527,16.0180426 70.4900801,16.0001419 L61.5220801,16.0001419 C61.3860601,16.0194204 61.2488921,15.9736137 61.1517502,15.8764718 C61.0546083,15.7793298 61.0088016,15.6421619 61.0280801,15.5061419 L61.0280801,0.743141896 C61.0101794,0.605769228 61.0556982,0.467708188 61.1517912,0.36791931 C61.2478842,0.268130432 61.3841299,0.217436008 61.5220801,0.230141896 L70.3000801,0.230141896 C70.441127,0.211066471 70.5829914,0.258944155 70.6836346,0.35958736 C70.7842778,0.460230564 70.8321555,0.602094963 70.8130801,0.743141896 L70.8130801,1.0851419 C70.825786,1.22309205 70.7750915,1.35933774 70.6753027,1.45543073 C70.5755138,1.55152373 70.4374527,1.59704255 70.3000801,1.5791419 L62.4530801,1.5791419 L62.4530801,7.2791419 L69.8250801,7.2791419 C69.9680476,7.26655523 70.1090407,7.31928492 70.2086633,7.42259732 C70.308286,7.52590971 70.3558555,7.66872644 70.3380801,7.8111419 L70.3380801,8.1721419 C70.3571555,8.31318883 70.3092778,8.45505323 70.2086346,8.55569643 C70.1079914,8.65633964 69.966127,8.70421732 69.8250801,8.6851419 L62.4530801,8.6851419 L62.4530801,14.6511419 L70.4900801,14.6511419 Z M73.1880801,6.2151419 C73.1880801,7.4691419 73.1880801,8.7231419 73.1880801,10.0151419 C73.0998893,11.4027438 73.5643708,12.768866 74.4800801,13.8151419 C75.3687972,14.6259494 76.547093,15.0438334 77.7480801,14.9741419 C78.303764,14.9796267 78.8582864,14.9222624 79.4010801,14.8031419 C79.877872,14.7033656 80.3300063,14.5095938 80.7310801,14.2331419 C81.1338869,13.9135573 81.4641819,13.5120223 81.7000801,13.0551419 C82.0003982,12.5412501 82.2183731,11.9834909 82.3460801,11.4021419 C82.3633667,11.2611045 82.4229865,11.1286162 82.5170801,11.0221419 C82.6230097,10.994791 82.7341504,10.994791 82.8400801,11.0221419 L83.2960801,11.0221419 C83.423675,11.0166263 83.5477351,11.0648719 83.6380801,11.1551419 C83.7296912,11.2366513 83.7787352,11.3557581 83.7710801,11.4781419 C83.7222683,12.0441902 83.5943573,12.6006029 83.3910801,13.1311419 C83.1517361,13.7260364 82.7891132,14.2634954 82.3270801,14.7081419 C81.7712106,15.2138232 81.1271942,15.6131133 80.4270801,15.8861419 C79.5521482,16.2098897 78.6237176,16.3646282 77.6910801,16.3421419 C76.789435,16.3638004 75.8922589,16.2088923 75.0500801,15.8861419 C74.3319484,15.6045693 73.6836363,15.1702002 73.1500801,14.6131419 C72.6572435,14.0614244 72.282251,13.4148855 72.0480801,12.7131419 C71.7926854,11.9208303 71.6581745,11.0945488 71.6490801,10.2621419 C71.6490801,9.6541419 71.6490801,8.9891419 71.6490801,8.3621419 C71.6490801,7.7351419 71.6490801,6.9751419 71.6490801,6.3291419 C71.6885099,5.4186142 71.8745666,4.52040939 72.2000801,3.6691419 C72.434251,2.96739827 72.8092435,2.32085943 73.3020801,1.7691419 C73.8356363,1.21208359 74.4839484,0.777714492 75.2020801,0.496141896 C76.0120028,0.172400887 76.8758553,0.00478770279 77.7480801,0.00214189588 C78.6807176,-0.0203443762 79.6091482,0.134394066 80.4840801,0.458141896 C81.1841942,0.731170482 81.8282106,1.13046062 82.3840801,1.6361419 C82.8413739,2.07740516 83.2034765,2.60762676 83.4480801,3.1941419 C83.6514129,3.73123419 83.7792971,4.29392465 83.8280801,4.8661419 C83.8357352,4.98852565 83.7866912,5.10763245 83.6950801,5.1891419 C83.6047351,5.27941185 83.480675,5.32765747 83.3530801,5.3221419 L82.8400801,5.3221419 C82.7341504,5.34949282 82.6230097,5.34949282 82.5170801,5.3221419 C82.4266308,5.2133534 82.3675157,5.08198652 82.3460801,4.9421419 C82.2340064,4.32036353 82.0154659,3.72259107 81.7000801,3.1751419 C81.4478492,2.75068996 81.1116576,2.38217228 80.7120801,2.0921419 C80.3110063,1.81569002 79.858872,1.62191816 79.3820801,1.5221419 C78.8392864,1.40302144 78.284764,1.34565706 77.7290801,1.3511419 C76.528093,1.28145037 75.3497972,1.69933436 74.4610801,2.5101419 C73.5757854,3.53531375 73.1198319,4.86234249 73.1880801,6.2151419 L73.1880801,6.2151419 Z M94.5820801,0.230141896 C94.723127,0.211066471 94.8649914,0.258944155 94.9656346,0.35958736 C95.0662778,0.460230564 95.1141555,0.602094963 95.0950801,0.743141896 L95.0950801,1.0851419 C95.107786,1.22309205 95.0570915,1.35933774 94.9573027,1.45543073 C94.8575138,1.55152373 94.7194527,1.59704255 94.5820801,1.5791419 L90.1360801,1.5791419 L90.1360801,15.5061419 C90.148786,15.644092 90.0980915,15.7803377 89.9983027,15.8764307 C89.8985138,15.9725237 89.7604527,16.0180426 89.6230801,16.0001419 L89.3000801,16.0001419 C89.1640601,16.0194204 89.0268921,15.9736137 88.9297502,15.8764718 C88.8326083,15.7793298 88.7868016,15.6421619 88.8060801,15.5061419 L88.8060801,1.5791419 L84.2650801,1.5791419 C84.1290601,1.59842035 83.9918921,1.55261369 83.8947502,1.45547177 C83.7976083,1.35832984 83.7518016,1.22116192 83.7710801,1.0851419 L83.7710801,0.743141896 C83.7710801,0.401141896 83.9230801,0.230141896 84.2650801,0.230141896 L94.5820801,0.230141896 Z M100.98508,0.00214189588 C101.792398,-0.00451620924 102.595143,0.123922917 103.36008,0.382141896 C104.071395,0.623073795 104.720344,1.01893241 105.26008,1.5411419 C105.79611,2.0806397 106.210696,2.7284302 106.47608,3.4411419 C106.792305,4.31917597 106.95928,5.24396166 106.97008,6.1771419 C106.97008,6.8611419 106.97008,7.4881419 106.97008,8.0771419 C106.97008,8.6661419 106.97008,9.2931419 106.97008,9.9771419 C107.060409,11.6950105 106.473785,13.3798478 105.33608,14.6701419 C104.164079,15.7408148 102.6074,16.289424 101.02308,16.1901419 C99.4273939,16.288915 97.8591425,15.7410542 96.6720801,14.6701419 C95.5369599,13.3911688 94.9381654,11.7240704 95.0000801,10.0151419 C95.0000801,9.3311419 95.0000801,8.7041419 95.0000801,8.1151419 C95.0000801,7.5261419 95.0000801,6.8991419 95.0000801,6.2151419 C95.0051341,5.28307035 95.1656717,4.35837414 95.4750801,3.4791419 C95.754641,2.77359755 96.1674961,2.12851147 96.6910801,1.5791419 C97.2323476,1.05891596 97.8808275,0.663343221 98.5910801,0.420141896 C99.3605499,0.149670022 100.169483,0.00842780843 100.98508,0.00214189588 Z M100.98508,1.3511419 C100.384294,1.3467564 99.7870214,1.44309071 99.2180801,1.6361419 C98.6823485,1.82364837 98.1954262,2.12878634 97.7930801,2.5291419 C97.3629861,2.97019837 97.0382173,3.5028191 96.8430801,4.0871419 C96.5982358,4.81019514 96.4637262,5.56601101 96.4440801,6.3291419 C96.4440801,6.6711419 96.4440801,6.9941419 96.4440801,7.2791419 C96.4440801,7.5641419 96.4440801,7.8491419 96.4440801,8.1151419 C96.4440801,8.3811419 96.4440801,8.6661419 96.4440801,8.9511419 C96.4440801,9.2361419 96.4440801,9.5591419 96.4440801,9.9011419 C96.4801636,10.6736189 96.6339341,11.4360641 96.9000801,12.1621419 C97.1000793,12.7385897 97.4244062,13.2639993 97.8500801,13.7011419 C98.2469403,14.0991228 98.727141,14.4041151 99.2560801,14.5941419 C99.8308735,14.7900195 100.434871,14.8864021 101.04208,14.8791419 C101.643088,14.8864816 102.240857,14.7900674 102.80908,14.5941419 C103.344812,14.4066354 103.831734,14.1014975 104.23408,13.7011419 C104.647331,13.2579148 104.96432,12.7339128 105.16508,12.1621419 C105.420088,11.4351717 105.554856,10.6714857 105.56408,9.9011419 C105.56408,9.5591419 105.56408,9.2551419 105.56408,8.9511419 L105.56408,7.2791419 C105.56408,6.9941419 105.56408,6.6711419 105.56408,6.3291419 C105.55518,5.56496099 105.420373,4.80747338 105.16508,4.0871419 C104.969943,3.5028191 104.645174,2.97019837 104.21508,2.5291419 C103.819816,2.11996239 103.330665,1.81342761 102.79008,1.6361419 C102.21002,1.43507285 101.598872,1.33857569 100.98508,1.3511419 Z" id="Shape--inject-9"></path>
+															</g>
+														</g>
+													</g>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</a>
+                            </div>
+                        </div>
+						
+
+                        <div class="col-lg-2 px-5 text-end" style="background-color:#FFF">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <span   style="color:transparent">ABC</span>
+                            </div>
+                        </div>
+						
+						
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-darkxx navbar-dark p-3 p-lg-0" style="background-color:#00a1e0">
+                        <!--a href="index.html" class="navbar-brand d-block d-lg-none">
+                            <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                        </a-->
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+						
+
+                        <div class="col-lg-2 px-5 text-end" style="background-color:transparent">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <span  style="color:transparent">mno</span>
+                            </div>
+                        </div>
+						
+
+                        <div class="col-lg-1 px-5 text-end" style="background-color:transparent">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <a href="#" class="nav-item nav-link bold" style="text-weight:bolder; color:white">Conselhos</a>
+                            </div>
+                        </div>
+                        <!--div class="col-lg-9 collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="#" class="nav-item nav-link bold" style="text-weight:bolder">Conselhos</a>
+                            </div>
+                        </div-->
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="https://bancobai.ao/media/4740/banner_jango.png" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px; text-align:left">
+                                <h2 class="display-3 text-white mb-4 animated slideInDown" style="text-align:left">Conselhos Sobre Investimentos</h2>
+                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="border-radius:50px; text-align:left; background-color:#00a1e0; border:#00a1e0">Conselhos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="https://bancobai.ao/media/4740/banner_jango.png" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px; text-align:left">
+                                <h2 class="display-3 text-white mb-4 animated slideInDown" style="text-align:left">Conselhos Sobre Investimentos</h2>
+                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="border-radius:50px; text-align:left; background-color:#00a1e0; border:#00a1e0">Conselhos</a>
+                            </div>
+                        </div>
+                    </div>~
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="bg-white shadow" style="padding: 35px;">
+								<form method="POST" action="">
+                    <div class="row g-2">
+                        <div class="col-md-10">
+                            <div class="row g-2">
+							
+                                <div class="col-md-3">
+                                    <div class="xxx" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control xxx"  id="nome" name="nome" required
+                                            placeholder="Nome" " />
+                                    </div>
+                                </div>
+							
+                                <div class="col-md-3">
+                                    <div class="xxx" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control xxx" id="valor" name="valor" required
+                                            placeholder="Valor"  />
+                                    </div>
+                                </div>
+							
+                                <div class="col-md-3">
+                                    <div class="xxx" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control xxx" id="prazo" name="prazo" required
+                                            placeholder="Prazo" />
+                                    </div>
+                                </div>
+							
+                                <div class="col-md-3">
+                                    <div class="xxx" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control xxx" id="profi" name="profi" required
+                                            placeholder="Profissão" />
+                                    </div>
+                                </div>
+							
+                                <div class="col-md-3">
+                                    <div class="xxx" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control xxx" id="area" name="area" required
+                                            placeholder="Area de Investimento"  />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <input  type="submit" Value="Conselhos" class="btn btn-primary w-100" style="background-color:#00a1e0; border:#00a1e0">
+                        </div>
+                    </div>
+								</form>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="mb-4">Conselhos Financeiros</h1>
+                        <p class="mb-4" style="text-align:justify">
+						</p>
+
+                        <!--a class="btn btn-primary py-3 px-5 mt-2" href="#" style="background-color:#00a1e0; border:#00a1e0">Novos Conselhos</a-->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/bancobai.png" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/bancobai2.jfif">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/bancobai3.jfif">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/bancobai4.jfif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Video Start -->
+        <div class="container-xxl py-5 px-0 wow zoomIn mb-10" data-wow-delay="0.1s" style="margin-bottom:120px">
+            <div class="row g-0">
+                <div class="col-md-3 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                       <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/bancobai6.png">
+                    </div>
+                </div>
+                <div class="col-md-4 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                        <h1 class="text-white mb-4">Banco Africano <br>de Investimento</h1>
+                    </div>
+                </div>
+                <div class="col-md-5 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                        <p class="text-white mb-4">O Banco Africano de Investimento é uma instituição financeira em África que financia projetos para impulsionar o crescimento econômico e o desenvolvimento sustentável no continente. Seu objetivo é apoiar o setor empresarial, facilitar o acesso a financiamento e promover a integração regional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid xbg-dark text-light footer wow fadeIn" data-wow-delay="0.1s" style="background-color:#374150; padding-top:0px!important">
+            <div class="container xxpb-5">
+                <div class="row g-5">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div> <br>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottomxxx" href="#"> 1996-2023, BAI - Banco Angolano de Investimentos. Todos direitos reservados <a class="border-bottom" href="https://htmlcodex.com"></a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="#">Home</a>
+                                <a href="#">Termos e condições</a>
+                                <a href="#">Formulario</a>
+                                <a href="#">Trabalhe connosco</a>
+                                <a href="#">FAQs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="background-color:#00a1e0; border:#00a1e0"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
